@@ -1,0 +1,101 @@
+/* PC Media Query Style */
+@media screen and (max-width: 1020px) {
+  body {
+    background: #def9c4;
+  }
+
+  .filter-btns .filter-btn {
+    border: 1px solid #9cdba6;
+    outline: 0;
+    width: 16.66%;
+    padding: 0.5rem 0;
+    background: #def9c4;
+  }
+
+  .filter-btns .filter-btn:hover,
+  .filter-btns .filter-btn.active {
+    background: #9cdba6;
+  }
+
+  .filter-images .filter-image {
+    width: 33.33%;
+    padding: 0.25rem;
+    animation: scale 0.3s 1;
+  }
+
+  .filter-images .filter-image span {
+    background: #9cdba6;
+  }
+
+  .light-box {
+    background: #9cdba6;
+  }
+}
+
+/* TABLET Media Query Style */
+@media screen and (max-width: 768px) {
+  body {
+    background: #f4eeff;
+  }
+
+  .filter-btns .filter-btn {
+    border: 1px solid #dcd6f7;
+    outline: 0;
+    width: 16.66%;
+    padding: 0.5rem 0;
+    background: #f4eeff;
+  }
+
+  .filter-btns .filter-btn:hover,
+  .filter-btns .filter-btn.active {
+    background: #dcd6f7;
+  }
+
+  .filter-images .filter-image {
+    width: 50%;
+    padding: 0.25rem;
+    animation: scale 0.3s 1;
+  }
+
+  .filter-images .filter-image span {
+    background: #dcd6f7;
+  }
+
+  .light-box {
+    background: #dcd6f7;
+  }
+}
+
+/* Mobile Media Query Style */
+@media screen and (max-width: 500px) {
+  body {
+    background: #fcecdd;
+  }
+
+  .filter-btns .filter-btn {
+    border: 1px solid #ffc288;
+    outline: 0;
+    width: 16.66%;
+    padding: 0.5rem 0;
+    background: #fcecdd;
+  }
+
+  .filter-btns .filter-btn:hover,
+  .filter-btns .filter-btn.active {
+    background: #ffc288;
+  }
+
+  .filter-images .filter-image {
+    width: 100%;
+    padding: 0.25rem;
+    animation: scale 0.3s 1;
+  }
+
+  .filter-images .filter-image span {
+    background: #ffc288;
+  }
+
+  .light-box {
+    background: #ffc288;
+  }
+}
